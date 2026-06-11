@@ -1,0 +1,71 @@
+
+<style>
+  .wrap { padding: 3rem 2rem; font-family: var(--font-sans); }
+  .header-block { margin-bottom: 2rem; }
+  .section-title { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 0.75rem; }
+  .section-intro { font-size: 14px; color: var(--color-text-secondary); line-height: 1.7; max-width: 600px; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.75rem 0; }
+  .split { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+  .photo-placeholder { width: 100%; aspect-ratio: 3/4; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center; }
+  .photo-placeholder span { font-size: 12px; color: var(--color-text-tertiary); letter-spacing: 0.08em; text-transform: uppercase; }
+  .right { display: flex; flex-direction: column; gap: 0; }
+  .service-block { padding: 1.25rem 0; border-bottom: 0.5px solid var(--color-border-tertiary); display: flex; flex-direction: column; gap: 0.4rem; }
+  .service-block:first-child { border-top: 0.5px solid var(--color-border-tertiary); }
+  .service-header { display: flex; align-items: center; justify-content: space-between; }
+  .service-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+  .service-claim { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; }
+  .service-link { font-size: 12px; color: var(--color-text-tertiary); display: inline-flex; align-items: center; gap: 4px; }
+  .service-link i { font-size: 12px; }
+</style>
+
+<div class="wrap">
+  <div class="header-block">
+    <h2 class="section-title">Data Reinvention</h2>
+    <p class="section-intro">Data creates competitive advantage only when structure, ownership and execution are aligned from day one. That alignment is what Data Reinvention is built to deliver, across every layer of the organisation and every phase of the transformation.</p>
+  </div>
+
+  <hr class="divider">
+
+  <div class="split">
+    <div class="photo-placeholder">
+      <span>Image</span>
+    </div>
+    <div class="right">
+      <div class="service-block">
+        <div class="service-header">
+          <p class="service-title">Data Strategy & Value Maximization</p>
+          <a class="service-link"><i class="ti ti-arrow-right"></i></a>
+        </div>
+        <p class="service-claim">Turning data ambition into a structured roadmap with clear priorities, ownership and measurable business impact.</p>
+      </div>
+      <div class="service-block">
+        <div class="service-header">
+          <p class="service-title">Governance Design & Deployment</p>
+          <a class="service-link"><i class="ti ti-arrow-right"></i></a>
+        </div>
+        <p class="service-claim">Building the frameworks, roles and decision rights that make data ownership real and enforceable across the organisation.</p>
+      </div>
+      <div class="service-block">
+        <div class="service-header">
+          <p class="service-title">Data Assurance & Risk Control</p>
+          <a class="service-link"><i class="ti ti-arrow-right"></i></a>
+        </div>
+        <p class="service-claim">Embedding the controls and monitoring mechanisms that keep data reliable, traceable and audit-ready at every stage.</p>
+      </div>
+      <div class="service-block">
+        <div class="service-header">
+          <p class="service-title">Advanced Analytics & AI Strategy</p>
+          <a class="service-link"><i class="ti ti-arrow-right"></i></a>
+        </div>
+        <p class="service-claim">Extracting decision-relevant insight from governed data through analytics frameworks, executive reporting and disciplined AI deployment.</p>
+      </div>
+      <div class="service-block">
+        <div class="service-header">
+          <p class="service-title">People Enablement & Data Literacy</p>
+          <a class="service-link"><i class="ti ti-arrow-right"></i></a>
+        </div>
+        <p class="service-claim">Driving the organisational adoption that turns data transformation from a design into a daily reality.</p>
+      </div>
+    </div>
+  </div>
+</div>
